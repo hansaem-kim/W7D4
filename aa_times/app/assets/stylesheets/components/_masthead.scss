@@ -26,7 +26,11 @@
 
 	ul {
 		display: flex;
+		li:first-child {
+			font-weight: bold;
+		}
 	}
+
 }
 
 .logo {

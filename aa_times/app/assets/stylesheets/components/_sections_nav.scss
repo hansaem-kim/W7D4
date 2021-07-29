@@ -1,0 +1,24 @@
+.section-nav {
+    display: flex;
+    border-bottom: 2px solid $light-gray;
+    justify-content: center;
+}
+
+.section-nav ul {
+    display: flex;
+    // margin: 0 auto;
+
+}
+
+.section-nav ul li{
+    padding: 5px;
+
+}
+
+.section-nav ul li:hover {
+    background-color: $gray;
+}
+
+.section-nav ul li:last-child {
+    text-decoration: underline;
+}
