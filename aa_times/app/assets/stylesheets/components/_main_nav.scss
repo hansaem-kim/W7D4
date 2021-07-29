@@ -1,17 +1,25 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  flex-direction: row;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      font: $serif;
+      font-size: 14px;
+      padding: 10px;
+      margin-right: 10px;
     }
   }
 
@@ -25,11 +33,11 @@
   > ul {
 
     > li {
-  
+      padding: 2px;
     }
 
     > li:last-of-type {
-  
+
     }
   }
   
@@ -40,5 +48,9 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-blue;
 
 }
+
+
+
